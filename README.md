@@ -1,16 +1,8 @@
-# Vue 3 + TypeScript + Vite
+# Vue 3 + TypeScript + Vite的后台用户管理系统
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+1.项目介绍
+该系统主要应用于单位人员管理和权限管理，不同用户归属于不同部门，不同用户拥有不同的按钮权限和菜单栏展示
+(测试账号：admin ，密码：1234)
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-
-## Type Support For `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
-
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
-
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+2.功能介绍
+1）完善的不同用户登录拥有不同的权限和菜单栏的展示的功能 2）可以新增，编辑，删除不同部门以及添加，编辑，删除不同部门下的人员 3）可以给不同的人员分配权限角色 4）不同的角色可以新增，删除，编辑不同的权限 5）每个权限功能也都可以编辑和删除
